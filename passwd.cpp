@@ -21,16 +21,13 @@ int main()
     if (pass == input && attempts <=9)
     {
         cout << "Good Work!" << endl;
+		system("pause");
     }
     else
     {
         cout << "Sorry, only 10 attempts allowed." << endl;
+		system("pause");
     }
-    do
-    {
-    cout << '\n' << "Press the enter key to continue...";
-    }
-    while(cin.get() != '\n');
 
 return 0;
 }
